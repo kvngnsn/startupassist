@@ -1,0 +1,22 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  templates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lint templates
+        run: python3 scripts/check_document.py --template --quiet templates/*/*.md
+      - name: Conversion calculator self-test
+        run: python3 scripts/conversion_calculator.py --selftest
+      - name: Word export smoke test
+        run: |
+          pip install python-docx
+          python3 scripts/md_to_docx.py templates/formation/bylaws.md -o /tmp/bylaws.docx
