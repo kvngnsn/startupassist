@@ -1,8 +1,15 @@
-# startupassist
+# StartupAssist — AI startup legal drafting and document templates
 
-An open-source [Agent Skill](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that turns Claude into an emerging-companies lawyer for **Delaware C corporations**: it knows every document a startup signs from formation through its Series A, drafts complete and internally consistent document sets from institutional-quality templates, reviews documents others send, and tracks the filings and deadlines each signing triggers.
+An open-source agent skill for **Delaware C-corp startup documents**, from formation through Series A. Draft and review founder equity, SAFEs, convertible notes, hiring agreements and financing documents using **56 templates**, source-linked guidance and consistency checks.
 
-> **Not legal advice.** The templates and guidance are drafts for review by a licensed attorney. Laws change; each template records when it was last verified and flags points to re-check.
+[![Download](https://img.shields.io/github/v/release/kvngnsn/startupassist?label=download)](https://github.com/kvngnsn/startupassist/releases/latest) [![License](https://img.shields.io/badge/license-CC0%20%2B%20MIT-blue)](LICENSE) [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-portable-2d6a4f)](https://agentskills.io/specification)
+[![Checks](https://github.com/kvngnsn/startupassist/actions/workflows/check.yml/badge.svg)](https://github.com/kvngnsn/startupassist/actions/workflows/check.yml)
+
+**Start here:** [install](#install) · [example prompts](#use) · [template catalog](references/document-catalog.md) · [download](https://github.com/kvngnsn/startupassist/releases/latest)
+
+For founders, startup lawyers and legal teams working on company formation, equity and venture financing. Portable instructions for Claude Code, Codex and other capable agents; Python helpers run locally. Keep company information and generated drafts outside this repository.
+
+> Templates and generated documents are drafts for attorney review. Each template records its verification date and sources; check current law and transaction facts before use.
 
 ## What's inside
 
@@ -32,15 +39,19 @@ Every template has four parts: YAML front matter (authorities, signers, sources,
 
 **Claude Code**
 
-```bash
-git clone https://github.com/kvngnsn/startupassist ~/.claude/skills/startupassist
+```sh
+git clone https://github.com/kvngnsn/startupassist.git ~/.claude/skills/startupassist
 ```
 
-Restart Claude Code. The skill loads automatically when you ask about a startup document, or invoke it with `/startupassist`.
+**Codex**
 
-**Claude apps (claude.ai, desktop):** download this repository as a ZIP and upload it under *Settings → Capabilities → Skills*.
+```sh
+git clone https://github.com/kvngnsn/startupassist.git ~/.agents/skills/startupassist
+```
 
-**Claude API / Agent SDK:** upload the folder as a custom skill; see the [Agent Skills docs](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview).
+Open a new session and use `/startupassist` in Claude Code or `$startupassist` in Codex. For another host, download the [skill ZIP](https://github.com/kvngnsn/startupassist/releases/latest) or give a capable agent [SKILL.md](SKILL.md). The [Agent Skills format](https://agentskills.io/specification) is portable; host-specific imports and tool access vary.
+
+The full workflow needs file access and current-source retrieval. Optional helpers need Python 3.9+; Word export additionally needs `python-docx`. No particular model, provider key or paid legal database is required by this repository. Instructions are portable; equivalent performance across models has not been established.
 
 ## Use
 
@@ -62,9 +73,9 @@ python3 scripts/conversion_calculator.py --example     # SAFE/note conversion an
 python3 scripts/franchise_tax.py --authorized 10000000 --par 0.00001 --issued 9000000 --gross-assets 500000
 ```
 
-## How current is it?
+## Source dates and verification
 
-Every template records a `last_verified` date (November 2026) and cites the statutes, regulations, and forms it relies on, including recent changes such as the 2025–2026 DGCL amendments (SB 21, SB 95, HB 353), the 2026 FinCEN rule ending beneficial-ownership reporting for U.S. companies, the 2025 changes to I.R.C. § 1202 (QSBS) under P.L. 119-21, Delaware's August 2026 fee schedule, and NVCA's October 2025 model-document updates. Points that move quickly or could not be confirmed from a primary source carry a `> **Verify:**` note inside the template; the skill resolves those before a document is finalized. Run `grep -rn "Verify:" templates` to see them.
+Templates include `last_verified` dates and primary-source links. Dates are a maintenance record, not a guarantee that every rule remains current. The workflow rechecks material legal rules, changing thresholds/fees and unresolved `Verify:` notes before use. This release's repository and template checks do not constitute a fresh legal audit of every document.
 
 ## Sources and licensing
 
@@ -82,3 +93,11 @@ python3 scripts/check_document.py --template templates/*/*.md
 ```
 
 Follow [`references/drafting-conventions.md`](references/drafting-conventions.md) for structure and style.
+
+## Related open-source skills
+
+| Project | Use it for |
+|---|---|
+| [no-slop](https://github.com/kvngnsn/no-slop) | Clear AI writing and editing, with facts and meaning preserved. |
+| [click-everything](https://github.com/kvngnsn/click-everything) | Exploratory UI testing, reproducible bugs and regression tests. |
+| [patentassist](https://github.com/kvngnsn/patentassist) | Invention intake, prior-art research and patent application drafting. |
