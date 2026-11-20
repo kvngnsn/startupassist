@@ -1,0 +1,3590 @@
+{
+  "schema_version": "1.0",
+  "engine": "startupassist",
+  "workflows": [
+    {
+      "id": "templates.commercial.mutual-nda",
+      "name": "Startup: mutual nda",
+      "category": "commercial",
+      "description": "Prepare the mutual nda from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/commercial/mutual-nda/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the mutual nda from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the mutual nda from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/commercial/mutual-nda.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.commercial.one-way-nda",
+      "name": "Startup: one way nda",
+      "category": "commercial",
+      "description": "Prepare the one way nda from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/commercial/one-way-nda/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the one way nda from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the one way nda from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/commercial/one-way-nda.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.compliance.delaware-franchise-tax-and-annual-report",
+      "name": "Startup: delaware franchise tax and annual report",
+      "category": "compliance",
+      "description": "Prepare the delaware franchise tax and annual report from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/compliance/delaware-franchise-tax-and-annual-report/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the delaware franchise tax and annual report from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the delaware franchise tax and annual report from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/compliance/delaware-franchise-tax-and-annual-report.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.compliance.dissolution-guide",
+      "name": "Startup: dissolution guide",
+      "category": "compliance",
+      "description": "Prepare the dissolution guide from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/compliance/dissolution-guide/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the dissolution guide from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the dissolution guide from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/compliance/dissolution-guide.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.compliance.entity-conversion-guide",
+      "name": "Startup: entity conversion guide",
+      "category": "compliance",
+      "description": "Prepare the entity conversion guide from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/compliance/entity-conversion-guide/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the entity conversion guide from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the entity conversion guide from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/compliance/entity-conversion-guide.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.compliance.foreign-qualification-guide",
+      "name": "Startup: foreign qualification guide",
+      "category": "compliance",
+      "description": "Prepare the foreign qualification guide from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/compliance/foreign-qualification-guide/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the foreign qualification guide from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the foreign qualification guide from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/compliance/foreign-qualification-guide.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.convertible-financing.board-consent-convertible-financing",
+      "name": "Startup: board consent convertible financing",
+      "category": "convertible-financing",
+      "description": "Prepare the board consent convertible financing from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/convertible-financing/board-consent-convertible-financing/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the board consent convertible financing from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the board consent convertible financing from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/convertible-financing/board-consent-convertible-financing.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.convertible-financing.convertible-note-purchase-agreement",
+      "name": "Startup: convertible note purchase agreement",
+      "category": "convertible-financing",
+      "description": "Prepare the convertible note purchase agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/convertible-financing/convertible-note-purchase-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the convertible note purchase agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the convertible note purchase agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/convertible-financing/convertible-note-purchase-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.convertible-financing.convertible-promissory-note",
+      "name": "Startup: convertible promissory note",
+      "category": "convertible-financing",
+      "description": "Prepare the convertible promissory note from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/convertible-financing/convertible-promissory-note/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the convertible promissory note from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the convertible promissory note from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/convertible-financing/convertible-promissory-note.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.convertible-financing.investor-questionnaire",
+      "name": "Startup: investor questionnaire",
+      "category": "convertible-financing",
+      "description": "Prepare the investor questionnaire from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/convertible-financing/investor-questionnaire/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the investor questionnaire from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the investor questionnaire from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/convertible-financing/investor-questionnaire.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.convertible-financing.safe-guide",
+      "name": "Startup: safe guide",
+      "category": "convertible-financing",
+      "description": "Prepare the safe guide from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/convertible-financing/safe-guide/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the safe guide from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the safe guide from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/convertible-financing/safe-guide.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.convertible-financing.safe-side-letter",
+      "name": "Startup: safe side letter",
+      "category": "convertible-financing",
+      "description": "Prepare the safe side letter from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/convertible-financing/safe-side-letter/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the safe side letter from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the safe side letter from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/convertible-financing/safe-side-letter.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.employment-and-contractors.advisor-agreement",
+      "name": "Startup: advisor agreement",
+      "category": "employment-and-contractors",
+      "description": "Prepare the advisor agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/employment-and-contractors/advisor-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the advisor agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the advisor agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/employment-and-contractors/advisor-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.employment-and-contractors.ciiaa-employee",
+      "name": "Startup: ciiaa employee",
+      "category": "employment-and-contractors",
+      "description": "Prepare the ciiaa employee from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/employment-and-contractors/ciiaa-employee/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the ciiaa employee from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the ciiaa employee from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/employment-and-contractors/ciiaa-employee.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.employment-and-contractors.confirmatory-ip-assignment",
+      "name": "Startup: confirmatory ip assignment",
+      "category": "employment-and-contractors",
+      "description": "Prepare the confirmatory ip assignment from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/employment-and-contractors/confirmatory-ip-assignment/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the confirmatory ip assignment from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the confirmatory ip assignment from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/employment-and-contractors/confirmatory-ip-assignment.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.employment-and-contractors.consulting-agreement",
+      "name": "Startup: consulting agreement",
+      "category": "employment-and-contractors",
+      "description": "Prepare the consulting agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/employment-and-contractors/consulting-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the consulting agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the consulting agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/employment-and-contractors/consulting-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.employment-and-contractors.executive-employment-agreement",
+      "name": "Startup: executive employment agreement",
+      "category": "employment-and-contractors",
+      "description": "Prepare the executive employment agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/employment-and-contractors/executive-employment-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the executive employment agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the executive employment agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/employment-and-contractors/executive-employment-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.employment-and-contractors.offer-letter",
+      "name": "Startup: offer letter",
+      "category": "employment-and-contractors",
+      "description": "Prepare the offer letter from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/employment-and-contractors/offer-letter/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the offer letter from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the offer letter from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/employment-and-contractors/offer-letter.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.employment-and-contractors.separation-agreement-and-release",
+      "name": "Startup: separation agreement and release",
+      "category": "employment-and-contractors",
+      "description": "Prepare the separation agreement and release from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/employment-and-contractors/separation-agreement-and-release/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the separation agreement and release from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the separation agreement and release from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/employment-and-contractors/separation-agreement-and-release.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.equity-compensation.board-consent-adopt-plan",
+      "name": "Startup: board consent adopt plan",
+      "category": "equity-compensation",
+      "description": "Prepare the board consent adopt plan from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/equity-compensation/board-consent-adopt-plan/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the board consent adopt plan from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the board consent adopt plan from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/equity-compensation/board-consent-adopt-plan.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.equity-compensation.board-consent-equity-grants",
+      "name": "Startup: board consent equity grants",
+      "category": "equity-compensation",
+      "description": "Prepare the board consent equity grants from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/equity-compensation/board-consent-equity-grants/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the board consent equity grants from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the board consent equity grants from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/equity-compensation/board-consent-equity-grants.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.equity-compensation.equity-incentive-plan",
+      "name": "Startup: equity incentive plan",
+      "category": "equity-compensation",
+      "description": "Prepare the equity incentive plan from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/equity-compensation/equity-incentive-plan/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the equity incentive plan from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the equity incentive plan from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/equity-compensation/equity-incentive-plan.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.equity-compensation.plan-share-increase-and-option-amendment",
+      "name": "Startup: plan share increase and option amendment",
+      "category": "equity-compensation",
+      "description": "Prepare the plan share increase and option amendment from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/equity-compensation/plan-share-increase-and-option-amendment/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the plan share increase and option amendment from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the plan share increase and option amendment from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/equity-compensation/plan-share-increase-and-option-amendment.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.equity-compensation.restricted-stock-purchase-agreement-plan",
+      "name": "Startup: restricted stock purchase agreement plan",
+      "category": "equity-compensation",
+      "description": "Prepare the restricted stock purchase agreement plan from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/equity-compensation/restricted-stock-purchase-agreement-plan/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the restricted stock purchase agreement plan from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the restricted stock purchase agreement plan from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/equity-compensation/restricted-stock-purchase-agreement-plan.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.equity-compensation.rsu-award-agreement",
+      "name": "Startup: rsu award agreement",
+      "category": "equity-compensation",
+      "description": "Prepare the rsu award agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/equity-compensation/rsu-award-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the rsu award agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the rsu award agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/equity-compensation/rsu-award-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.equity-compensation.stock-option-grant-package",
+      "name": "Startup: stock option grant package",
+      "category": "equity-compensation",
+      "description": "Prepare the stock option grant package from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/equity-compensation/stock-option-grant-package/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the stock option grant package from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the stock option grant package from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/equity-compensation/stock-option-grant-package.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.equity-compensation.stockholder-consent-approve-plan",
+      "name": "Startup: stockholder consent approve plan",
+      "category": "equity-compensation",
+      "description": "Prepare the stockholder consent approve plan from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/equity-compensation/stockholder-consent-approve-plan/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the stockholder consent approve plan from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the stockholder consent approve plan from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/equity-compensation/stockholder-consent-approve-plan.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.formation.action-of-sole-incorporator",
+      "name": "Startup: action of sole incorporator",
+      "category": "formation",
+      "description": "Prepare the action of sole incorporator from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/formation/action-of-sole-incorporator/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the action of sole incorporator from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the action of sole incorporator from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/formation/action-of-sole-incorporator.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.formation.bylaws",
+      "name": "Startup: bylaws",
+      "category": "formation",
+      "description": "Prepare the bylaws from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/formation/bylaws/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the bylaws from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the bylaws from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/formation/bylaws.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.formation.certificate-of-incorporation",
+      "name": "Startup: certificate of incorporation",
+      "category": "formation",
+      "description": "Prepare the certificate of incorporation from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/formation/certificate-of-incorporation/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the certificate of incorporation from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the certificate of incorporation from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/formation/certificate-of-incorporation.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.formation.indemnification-agreement",
+      "name": "Startup: indemnification agreement",
+      "category": "formation",
+      "description": "Prepare the indemnification agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/formation/indemnification-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the indemnification agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the indemnification agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/formation/indemnification-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.formation.initial-board-consent",
+      "name": "Startup: initial board consent",
+      "category": "formation",
+      "description": "Prepare the initial board consent from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/formation/initial-board-consent/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the initial board consent from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the initial board consent from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/formation/initial-board-consent.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.formation.stock-records",
+      "name": "Startup: stock records",
+      "category": "formation",
+      "description": "Prepare the stock records from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/formation/stock-records/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the stock records from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the stock records from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/formation/stock-records.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.founders.83b-election-package",
+      "name": "Startup: 83b election package",
+      "category": "founders",
+      "description": "Prepare the 83b election package from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/founders/83b-election-package/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the 83b election package from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the 83b election package from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/founders/83b-election-package.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.founders.founder-stock-purchase-agreement",
+      "name": "Startup: founder stock purchase agreement",
+      "category": "founders",
+      "description": "Prepare the founder stock purchase agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/founders/founder-stock-purchase-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the founder stock purchase agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the founder stock purchase agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/founders/founder-stock-purchase-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.founders.notice-of-repurchase",
+      "name": "Startup: notice of repurchase",
+      "category": "founders",
+      "description": "Prepare the notice of repurchase from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/founders/notice-of-repurchase/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the notice of repurchase from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the notice of repurchase from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/founders/notice-of-repurchase.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.founders.spousal-consent",
+      "name": "Startup: spousal consent",
+      "category": "founders",
+      "description": "Prepare the spousal consent from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/founders/spousal-consent/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the spousal consent from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the spousal consent from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/founders/spousal-consent.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.founders.technology-assignment-agreement",
+      "name": "Startup: technology assignment agreement",
+      "category": "founders",
+      "description": "Prepare the technology assignment agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/founders/technology-assignment-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the technology assignment agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the technology assignment agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/founders/technology-assignment-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.governance.board-consent-resolution-library",
+      "name": "Startup: board consent resolution library",
+      "category": "governance",
+      "description": "Prepare the board consent resolution library from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/governance/board-consent-resolution-library/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the board consent resolution library from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the board consent resolution library from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/governance/board-consent-resolution-library.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.governance.board-meeting-materials",
+      "name": "Startup: board meeting materials",
+      "category": "governance",
+      "description": "Prepare the board meeting materials from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/governance/board-meeting-materials/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the board meeting materials from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the board meeting materials from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/governance/board-meeting-materials.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.governance.certificate-of-amendment",
+      "name": "Startup: certificate of amendment",
+      "category": "governance",
+      "description": "Prepare the certificate of amendment from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/governance/certificate-of-amendment/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the certificate of amendment from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the certificate of amendment from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/governance/certificate-of-amendment.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.governance.director-agreement",
+      "name": "Startup: director agreement",
+      "category": "governance",
+      "description": "Prepare the director agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/governance/director-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the director agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the director agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/governance/director-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.governance.secretarys-certificate",
+      "name": "Startup: secretarys certificate",
+      "category": "governance",
+      "description": "Prepare the secretarys certificate from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/governance/secretarys-certificate/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the secretarys certificate from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the secretarys certificate from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/governance/secretarys-certificate.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.governance.section-204-ratification",
+      "name": "Startup: section 204 ratification",
+      "category": "governance",
+      "description": "Prepare the section 204 ratification from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/governance/section-204-ratification/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the section 204 ratification from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the section 204 ratification from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/governance/section-204-ratification.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.governance.stockholder-consent-and-notice",
+      "name": "Startup: stockholder consent and notice",
+      "category": "governance",
+      "description": "Prepare the stockholder consent and notice from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/governance/stockholder-consent-and-notice/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the stockholder consent and notice from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the stockholder consent and notice from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/governance/stockholder-consent-and-notice.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.governance.stockholder-meeting-materials",
+      "name": "Startup: stockholder meeting materials",
+      "category": "governance",
+      "description": "Prepare the stockholder meeting materials from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/governance/stockholder-meeting-materials/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the stockholder meeting materials from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the stockholder meeting materials from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/governance/stockholder-meeting-materials.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.amended-and-restated-certificate-of-incorporation",
+      "name": "Startup: amended and restated certificate of incorporation",
+      "category": "priced-financing",
+      "description": "Prepare the amended and restated certificate of incorporation from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/amended-and-restated-certificate-of-incorporation/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the amended and restated certificate of incorporation from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the amended and restated certificate of incorporation from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/amended-and-restated-certificate-of-incorporation.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.board-consent-priced-financing",
+      "name": "Startup: board consent priced financing",
+      "category": "priced-financing",
+      "description": "Prepare the board consent priced financing from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/board-consent-priced-financing/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the board consent priced financing from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the board consent priced financing from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/board-consent-priced-financing.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.disclosure-schedule",
+      "name": "Startup: disclosure schedule",
+      "category": "priced-financing",
+      "description": "Prepare the disclosure schedule from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/disclosure-schedule/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the disclosure schedule from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the disclosure schedule from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/disclosure-schedule.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.investors-rights-agreement",
+      "name": "Startup: investors rights agreement",
+      "category": "priced-financing",
+      "description": "Prepare the investors rights agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/investors-rights-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the investors rights agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the investors rights agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/investors-rights-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.management-rights-letter",
+      "name": "Startup: management rights letter",
+      "category": "priced-financing",
+      "description": "Prepare the management rights letter from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/management-rights-letter/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the management rights letter from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the management rights letter from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/management-rights-letter.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.rofr-and-co-sale-agreement",
+      "name": "Startup: rofr and co sale agreement",
+      "category": "priced-financing",
+      "description": "Prepare the rofr and co sale agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/rofr-and-co-sale-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the rofr and co sale agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the rofr and co sale agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/rofr-and-co-sale-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.stock-purchase-agreement",
+      "name": "Startup: stock purchase agreement",
+      "category": "priced-financing",
+      "description": "Prepare the stock purchase agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/stock-purchase-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the stock purchase agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the stock purchase agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/stock-purchase-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.stockholder-consent-priced-financing",
+      "name": "Startup: stockholder consent priced financing",
+      "category": "priced-financing",
+      "description": "Prepare the stockholder consent priced financing from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/stockholder-consent-priced-financing/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the stockholder consent priced financing from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the stockholder consent priced financing from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/stockholder-consent-priced-financing.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.term-sheet",
+      "name": "Startup: term sheet",
+      "category": "priced-financing",
+      "description": "Prepare the term sheet from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/term-sheet/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the term sheet from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the term sheet from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/term-sheet.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "templates.priced-financing.voting-agreement",
+      "name": "Startup: voting agreement",
+      "category": "priced-financing",
+      "description": "Prepare the voting agreement from the existing template and its documented prerequisites",
+      "path": "atlas/workflows/templates/priced-financing/voting-agreement/SKILL.md",
+      "tier": 1,
+      "readiness": "draft",
+      "artifact_kind": "document",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Prepare the voting agreement from the existing template and its documented prerequisites",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Prepare the voting agreement from the existing template and its documented prerequisites",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": "templates/priced-financing/voting-agreement.md",
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": [
+        "document-body",
+        "conditional-sections",
+        "companion-artifacts"
+      ]
+    },
+    {
+      "id": "operations.intake",
+      "name": "Intake",
+      "category": "operations",
+      "description": "Produce the requested startup intake with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/intake/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup intake with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup intake with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.stage-plan",
+      "name": "Stage Plan",
+      "category": "operations",
+      "description": "Produce the requested startup stage plan with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/stage-plan/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup stage plan with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup stage plan with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.document-review",
+      "name": "Document Review",
+      "category": "operations",
+      "description": "Produce the requested startup document review with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/document-review/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup document review with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup document review with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.cap-table-reconciliation",
+      "name": "Cap Table Reconciliation",
+      "category": "operations",
+      "description": "Produce the requested startup cap table reconciliation with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/cap-table-reconciliation/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup cap table reconciliation with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup cap table reconciliation with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.closing-checklist",
+      "name": "Closing Checklist",
+      "category": "operations",
+      "description": "Produce the requested startup closing checklist with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/closing-checklist/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup closing checklist with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup closing checklist with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.signature-packet",
+      "name": "Signature Packet",
+      "category": "operations",
+      "description": "Produce the requested startup signature packet with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/signature-packet/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup signature packet with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup signature packet with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.diligence-review",
+      "name": "Diligence Review",
+      "category": "operations",
+      "description": "Produce the requested startup diligence review with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/diligence-review/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup diligence review with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup diligence review with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.board-package",
+      "name": "Board Package",
+      "category": "operations",
+      "description": "Produce the requested startup board package with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/board-package/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup board package with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup board package with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.post-closing-obligations",
+      "name": "Post Closing Obligations",
+      "category": "operations",
+      "description": "Produce the requested startup post closing obligations with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/post-closing-obligations/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup post closing obligations with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup post closing obligations with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "operations.cross-document-consistency",
+      "name": "Cross Document Consistency",
+      "category": "operations",
+      "description": "Produce the requested startup cross document consistency with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/operations/cross-document-consistency/SKILL.md",
+      "tier": 1,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup cross document consistency with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup cross document consistency with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.llc-formation",
+      "name": "Llc Formation",
+      "category": "future",
+      "description": "Produce the requested startup llc formation with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/llc-formation/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup llc formation with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup llc formation with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.llc-conversion",
+      "name": "Llc Conversion",
+      "category": "future",
+      "description": "Produce the requested startup llc conversion with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/llc-conversion/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup llc conversion with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup llc conversion with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.non-delaware-corporation",
+      "name": "Non Delaware Corporation",
+      "category": "future",
+      "description": "Produce the requested startup non delaware corporation with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/non-delaware-corporation/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup non delaware corporation with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup non delaware corporation with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.later-stage-financing",
+      "name": "Later Stage Financing",
+      "category": "future",
+      "description": "Produce the requested startup later stage financing with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/later-stage-financing/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup later stage financing with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup later stage financing with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.acquisition",
+      "name": "Acquisition",
+      "category": "future",
+      "description": "Produce the requested startup acquisition with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/acquisition/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup acquisition with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup acquisition with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.asset-sale",
+      "name": "Asset Sale",
+      "category": "future",
+      "description": "Produce the requested startup asset sale with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/asset-sale/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup asset sale with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup asset sale with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.merger",
+      "name": "Merger",
+      "category": "future",
+      "description": "Produce the requested startup merger with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/merger/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup merger with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup merger with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.international-subsidiary",
+      "name": "International Subsidiary",
+      "category": "future",
+      "description": "Produce the requested startup international subsidiary with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/international-subsidiary/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup international subsidiary with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup international subsidiary with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.secondary-sale",
+      "name": "Secondary Sale",
+      "category": "future",
+      "description": "Produce the requested startup secondary sale with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/secondary-sale/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup secondary sale with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup secondary sale with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.tender-offer",
+      "name": "Tender Offer",
+      "category": "future",
+      "description": "Produce the requested startup tender offer with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/tender-offer/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup tender offer with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup tender offer with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.venture-debt",
+      "name": "Venture Debt",
+      "category": "future",
+      "description": "Produce the requested startup venture debt with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/venture-debt/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup venture debt with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup venture debt with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.ip-license",
+      "name": "Ip License",
+      "category": "future",
+      "description": "Produce the requested startup ip license with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/ip-license/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup ip license with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup ip license with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.commercial-agreement",
+      "name": "Commercial Agreement",
+      "category": "future",
+      "description": "Produce the requested startup commercial agreement with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/commercial-agreement/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup commercial agreement with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup commercial agreement with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    },
+    {
+      "id": "future.employment-dispute-handoff",
+      "name": "Employment Dispute Handoff",
+      "category": "future",
+      "description": "Produce the requested startup employment dispute handoff with a consistent company fact set and explicit scope limits",
+      "path": "atlas/workflows/future/employment-dispute-handoff/SKILL.md",
+      "tier": 2,
+      "readiness": "shell",
+      "artifact_kind": "analysis",
+      "requires": [
+        "matter.read",
+        "document.render"
+      ],
+      "inputs": [
+        "task and requested output",
+        "authorized source references",
+        "relevant dates and known gaps",
+        "matter snapshot and party/posture context"
+      ],
+      "outputs": [
+        "Produce the requested startup employment dispute handoff with a consistent company fact set and explicit scope limits",
+        "Source ledger",
+        "Unresolved questions and validation report"
+      ],
+      "blueprint": [
+        "Scope and source inventory",
+        "Produce the requested startup employment dispute handoff with a consistent company fact set and explicit scope limits",
+        "Findings linked to original evidence",
+        "Conflicts, missing information and next required checks"
+      ],
+      "dependencies": [],
+      "optional_dependencies": [],
+      "jurisdiction_profile_required": false,
+      "source_guidance": null,
+      "release": {
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "evaluation_refs": [],
+        "source_refs": []
+      },
+      "template_slots": []
+    }
+  ]
+}

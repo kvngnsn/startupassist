@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atlas host invocation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "task_id",
+    "engine",
+    "workflow",
+    "actor_id",
+    "firm_id",
+    "authorized_source_refs",
+    "matter_snapshot_hash",
+    "jurisdiction",
+    "as_of_date",
+    "capabilities",
+    "budget"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "engine": {
+      "type": "string",
+      "minLength": 1
+    },
+    "workflow": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "firm_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "matter_snapshot_hash": {
+      "type": "string",
+      "minLength": 1
+    },
+    "as_of_date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authorized_source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "jurisdiction": {
+      "type": "object",
+      "properties": {
+        "profile_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "court_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "governing_law": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "budget": {
+      "type": "object",
+      "required": [
+        "max_cost_usd",
+        "max_steps"
+      ],
+      "properties": {
+        "max_cost_usd": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_steps": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "action_authorization": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

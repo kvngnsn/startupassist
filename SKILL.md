@@ -136,3 +136,7 @@ Other state deadlines (California Statements of Information, other states' blue-
 | [references/convertible-instruments.md](references/convertible-instruments.md) | SAFE and note mechanics with worked math |
 | [references/venture-financing-terms.md](references/venture-financing-terms.md) | Term-by-term priced-round guide and market data |
 | [references/governance-and-compliance.md](references/governance-and-compliance.md) | Board/stockholder mechanics, § 144, § 204, annual compliance |
+
+## Atlas workflow catalog
+
+The optional [Atlas adapter](atlas/README.md) catalogs individual outputs and future shells. It preserves this standalone skill; adapter readiness is tracked separately.

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "id": "startupassist",
+  "name": "StartupAssist",
+  "version": "0.1.0",
+  "visibility": "public",
+  "entrypoint": "SKILL.md",
+  "catalog": "atlas/catalog.json",
+  "status": "scaffold",
+  "production_enabled": false,
+  "contract_version": "1.0",
+  "readiness_states": [
+    "shell",
+    "draft",
+    "validated",
+    "released"
+  ],
+  "tier_policy": "1 = launch candidate; 2 = deferred; later batches may use 3+. Tier never implies readiness."
+}

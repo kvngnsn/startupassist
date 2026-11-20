@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atlas result",
+  "type": "object",
+  "required": [
+    "status",
+    "artifacts",
+    "source_ledger",
+    "unresolved",
+    "checks"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "complete",
+        "needs_context",
+        "unsupported",
+        "partial",
+        "failed"
+      ]
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "uri"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "uri": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "source_ledger": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "locator",
+          "claim"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "support": {
+            "enum": [
+              "supported",
+              "inference",
+              "unresolved",
+              "contradicted"
+            ]
+          }
+        }
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "status"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "passed",
+              "failed",
+              "unresolved"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

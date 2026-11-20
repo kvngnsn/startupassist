@@ -1,0 +1,699 @@
+{
+  "schema_version": "1.0",
+  "engine": "startupassist",
+  "package_sha256": "0e6b2c9ac847305b48e768a05fadfeae4cc4927b07e367bb5260f950d0ba0bc4",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "sha256": "78ef96878605425ed9a531fd269c16b08180b63baa82c355c417fb48b83bb6b5"
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "sha256": "0bc21072759e70a38a1c459f34050a3093470170ad9f81cf3994ac1a5967a736"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "56d74b56c75f83f2633a6e5f04d08942a46515383b94e5b471236fb34a43a9bd"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "README.md",
+      "sha256": "65d4fe479d2493e604175194207baf81b9eef4e9f2d32f228187e5d033ce483e"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "913124f0bceb0c6a72a0e27c3534f86c386552cf6fbb19a9eec099112c7a2425"
+    },
+    {
+      "path": "atlas/CATALOG.md",
+      "sha256": "a5bae2ee65ce124a11f430bbced3902ae5653b801d5ec82fa0b38ffd0370509f"
+    },
+    {
+      "path": "atlas/README.md",
+      "sha256": "285f2630a76c310cb6d752966f460b837b0a66abb7d1ede29791bdcb794c3b74"
+    },
+    {
+      "path": "atlas/catalog.json",
+      "sha256": "68695d91d82b52ff0e62fa04647f97a2c0c889e1db395c2f1fa0af157251afdb"
+    },
+    {
+      "path": "atlas/evals/README.md",
+      "sha256": "788610e44ac9db48713f222acb7d1b83878bb179c6b1afdbf94c660f5eb081fa"
+    },
+    {
+      "path": "atlas/schemas/invocation.schema.json",
+      "sha256": "2b785117c1ddba7ea7273e26614b37c1bceb0fe196f117a187b878b1e278d2aa"
+    },
+    {
+      "path": "atlas/schemas/release.schema.json",
+      "sha256": "8fc1bc62b789e24b4b7393c68acbec77a8d4796f45965b1fd5979fdeeb9a6f2f"
+    },
+    {
+      "path": "atlas/schemas/result.schema.json",
+      "sha256": "682f04112354aa73061b51be34faa828e7e1ea4d303d85b186214718b9ccf5b2"
+    },
+    {
+      "path": "atlas/scripts/validate.py",
+      "sha256": "11f2254527c94aeb5460ca4c5995a744f7bbeda3a582521af81b63d8c5851c36"
+    },
+    {
+      "path": "atlas/workflows/future/acquisition/SKILL.md",
+      "sha256": "81c9803097b04679330f5f5a949bc70388e35e821b12ba50954fad4465ed9a0b"
+    },
+    {
+      "path": "atlas/workflows/future/asset-sale/SKILL.md",
+      "sha256": "7e2efbae21c22a086d01f75927228297181823b7ea92978f6391452320089a76"
+    },
+    {
+      "path": "atlas/workflows/future/commercial-agreement/SKILL.md",
+      "sha256": "2a8163dd79f54482f807c2399732d40140c52aab6b382135d940b68740c97497"
+    },
+    {
+      "path": "atlas/workflows/future/employment-dispute-handoff/SKILL.md",
+      "sha256": "dc9157e837053c98a5fce18a277822ba563de2d6e7a02d623207eea49b75ebe0"
+    },
+    {
+      "path": "atlas/workflows/future/international-subsidiary/SKILL.md",
+      "sha256": "9064b14d8724b1d55ee29dae3361610d9e338ee463802cafa484c16821d204f7"
+    },
+    {
+      "path": "atlas/workflows/future/ip-license/SKILL.md",
+      "sha256": "5fc221e7e4b6087b98731a5fff9174d996ed4a04157b4f4ab11f61f6f3a1ee10"
+    },
+    {
+      "path": "atlas/workflows/future/later-stage-financing/SKILL.md",
+      "sha256": "457961a5f8f7838044c44150a30389d090959902a6d385ffe9ebad721d1bc815"
+    },
+    {
+      "path": "atlas/workflows/future/llc-conversion/SKILL.md",
+      "sha256": "d285f2bbc88229b640281ef026d06797e46c632e9418c3a5f0f0247d486da59e"
+    },
+    {
+      "path": "atlas/workflows/future/llc-formation/SKILL.md",
+      "sha256": "abdd998cec71e48f265e97538699b068c3e0f16b935135b2db68019d1ab434ee"
+    },
+    {
+      "path": "atlas/workflows/future/merger/SKILL.md",
+      "sha256": "77e7645904b793655ce19dd3ca4196807374cb07ec769e38121978f3a967f348"
+    },
+    {
+      "path": "atlas/workflows/future/non-delaware-corporation/SKILL.md",
+      "sha256": "648d0302315a29d365cd2e0e00faaca79577da83a0be3e58f50c41bdfb74d54b"
+    },
+    {
+      "path": "atlas/workflows/future/secondary-sale/SKILL.md",
+      "sha256": "a9acd20ad76dd3e7d44e1877ad1269a9c8c662be02151fbe4263ec7248d25a2b"
+    },
+    {
+      "path": "atlas/workflows/future/tender-offer/SKILL.md",
+      "sha256": "e46b6aa96890bbced06e82ded52aaca42da173cfc198eefa4dcce7998a403893"
+    },
+    {
+      "path": "atlas/workflows/future/venture-debt/SKILL.md",
+      "sha256": "2666629f72e0fe712b213e368b01671c9cd111510b571cdecb8a0e2bacd3a0e7"
+    },
+    {
+      "path": "atlas/workflows/operations/board-package/SKILL.md",
+      "sha256": "c9be1c8422490786e1dd111dacf89af4b27771667dc221a60fed60f1ca1673c2"
+    },
+    {
+      "path": "atlas/workflows/operations/cap-table-reconciliation/SKILL.md",
+      "sha256": "663e66046ab8126b49fefaaf09439065d6c6d2a3447378b7a543f3100752fc9e"
+    },
+    {
+      "path": "atlas/workflows/operations/closing-checklist/SKILL.md",
+      "sha256": "5142fe2f372dfea42377125989c9b2378b332254842f763dd42e5e300ca3876d"
+    },
+    {
+      "path": "atlas/workflows/operations/cross-document-consistency/SKILL.md",
+      "sha256": "33cd0ad62283a1c7d862ba37af2320fc9225d9a0450cd4f8506114467772e178"
+    },
+    {
+      "path": "atlas/workflows/operations/diligence-review/SKILL.md",
+      "sha256": "0caca37ce15d88732ded5112787f38bbea6ec10193c8bc3f88d8f6f935192ef7"
+    },
+    {
+      "path": "atlas/workflows/operations/document-review/SKILL.md",
+      "sha256": "37d8e5b15a9710af21339e7321da9137875d307d07c68fbd5c49cdaa3eced976"
+    },
+    {
+      "path": "atlas/workflows/operations/intake/SKILL.md",
+      "sha256": "64ce639b08158348b8670a737ccca4e0ebaada6e6b0c705caf6fa26dd813a304"
+    },
+    {
+      "path": "atlas/workflows/operations/post-closing-obligations/SKILL.md",
+      "sha256": "c76fc0c59ac4e796010b5a0e9c96bd817ce8287d6b23c6b8ed79fc8fa9e0e231"
+    },
+    {
+      "path": "atlas/workflows/operations/signature-packet/SKILL.md",
+      "sha256": "eecfc6fbaed8c616cebad8e70439b0b8208336e4e957be6de12492c03d0f6179"
+    },
+    {
+      "path": "atlas/workflows/operations/stage-plan/SKILL.md",
+      "sha256": "93e26d34ea054f489f17ad091e88595d3859344c2a5380b97e27d76af4e66790"
+    },
+    {
+      "path": "atlas/workflows/templates/commercial/mutual-nda/SKILL.md",
+      "sha256": "f473fd67818b8008d982d2f411cc633be98c6cd7a1b76af57ffe02ca1b6a1372"
+    },
+    {
+      "path": "atlas/workflows/templates/commercial/one-way-nda/SKILL.md",
+      "sha256": "44e0656d97da035b68cc8d1f65264e83c3707dc9bae7a4b6006f370e3ea1d7f0"
+    },
+    {
+      "path": "atlas/workflows/templates/compliance/delaware-franchise-tax-and-annual-report/SKILL.md",
+      "sha256": "01fd64333f549557af1aa8d36d5ba73b4425c7b05b1e32f93f2cf6e8248ab419"
+    },
+    {
+      "path": "atlas/workflows/templates/compliance/dissolution-guide/SKILL.md",
+      "sha256": "38becf3ad398e866c4e4d07e4d112477a49d3a1126b59e267c128554acb84f1f"
+    },
+    {
+      "path": "atlas/workflows/templates/compliance/entity-conversion-guide/SKILL.md",
+      "sha256": "85028259884ddf691f0470a9357bc336a2439774b628a519768508d932f8b46b"
+    },
+    {
+      "path": "atlas/workflows/templates/compliance/foreign-qualification-guide/SKILL.md",
+      "sha256": "309faf8bb0d9db6c153a6abcffb13cc466c2c8c4e41c884c0ae333c4c22e380e"
+    },
+    {
+      "path": "atlas/workflows/templates/convertible-financing/board-consent-convertible-financing/SKILL.md",
+      "sha256": "c9c04608394e0d44f0b41562eabc33b9d28fd56bc3fb5eb8846f173edd3466f1"
+    },
+    {
+      "path": "atlas/workflows/templates/convertible-financing/convertible-note-purchase-agreement/SKILL.md",
+      "sha256": "7427e8de06b19310147331e3f4a762ac5de2103182c078692a6c0d1d187294ed"
+    },
+    {
+      "path": "atlas/workflows/templates/convertible-financing/convertible-promissory-note/SKILL.md",
+      "sha256": "4ad71ccd600b5aa9212dcc62b06b3661daa7d1f05e46e3e6e7f82c8706bbb80c"
+    },
+    {
+      "path": "atlas/workflows/templates/convertible-financing/investor-questionnaire/SKILL.md",
+      "sha256": "b169298103b36bacd0e5b5aed1d2bd1b270ff42ff3bd8dd7e9e908aebf83547c"
+    },
+    {
+      "path": "atlas/workflows/templates/convertible-financing/safe-guide/SKILL.md",
+      "sha256": "a4a98b3f984c1505dab2dbb72c2df59846868be01a1e0942d9d00689c6d9a480"
+    },
+    {
+      "path": "atlas/workflows/templates/convertible-financing/safe-side-letter/SKILL.md",
+      "sha256": "8b7d57e34fd44ce76219ca23e06e320f8ba919911977f3cb4176d15c033b513f"
+    },
+    {
+      "path": "atlas/workflows/templates/employment-and-contractors/advisor-agreement/SKILL.md",
+      "sha256": "6182ae0cb53ddb7fec20c0e04bad7dbadedf0e31b8eb1afe111a15fa860018a5"
+    },
+    {
+      "path": "atlas/workflows/templates/employment-and-contractors/ciiaa-employee/SKILL.md",
+      "sha256": "a7d7a34274fc6deb3ef2ac18ecb8524b9b7746e4384601354150de48efb93fde"
+    },
+    {
+      "path": "atlas/workflows/templates/employment-and-contractors/confirmatory-ip-assignment/SKILL.md",
+      "sha256": "2727aa5f5ba080efd46942ec25b874efbb7dc87e33c222de84a7d00c3cfd08a4"
+    },
+    {
+      "path": "atlas/workflows/templates/employment-and-contractors/consulting-agreement/SKILL.md",
+      "sha256": "ee7db37c177e11c57ac3408c3821ab901d7c091ee822e34c4294d1b24fe28e6e"
+    },
+    {
+      "path": "atlas/workflows/templates/employment-and-contractors/executive-employment-agreement/SKILL.md",
+      "sha256": "edaf2c8ede58bc09ccdfab848ed14c697fae793c7081197873749690e8952903"
+    },
+    {
+      "path": "atlas/workflows/templates/employment-and-contractors/offer-letter/SKILL.md",
+      "sha256": "a967fb1df0e5cac72e485b4ae1d100b9448cd975a6850b8cd9fc8f8a5edd6a83"
+    },
+    {
+      "path": "atlas/workflows/templates/employment-and-contractors/separation-agreement-and-release/SKILL.md",
+      "sha256": "c0e29d1c2b4012f7c27a0829df6176d1ee4c601a1398d3b52bd011c21a05b084"
+    },
+    {
+      "path": "atlas/workflows/templates/equity-compensation/board-consent-adopt-plan/SKILL.md",
+      "sha256": "f2e4c71071adc24b52bf352d7580ad1b9b04eb477828af796db4ed9b91241b9a"
+    },
+    {
+      "path": "atlas/workflows/templates/equity-compensation/board-consent-equity-grants/SKILL.md",
+      "sha256": "bbfa13dc634f1523d453a74c4835c61d794040d78f6ee678f296ec4ce6168c05"
+    },
+    {
+      "path": "atlas/workflows/templates/equity-compensation/equity-incentive-plan/SKILL.md",
+      "sha256": "e950cd39210900c0bcb800115aa486fb151aeb704d7c08bb4ba8bf0238ced9b1"
+    },
+    {
+      "path": "atlas/workflows/templates/equity-compensation/plan-share-increase-and-option-amendment/SKILL.md",
+      "sha256": "bb48e3ff5fec470c7102f1a188015fad9ff217c604b43af379102fb6381ca5ce"
+    },
+    {
+      "path": "atlas/workflows/templates/equity-compensation/restricted-stock-purchase-agreement-plan/SKILL.md",
+      "sha256": "bdabf11eddf82e0aab3bde6be4c9e9a3dc6c02986d926338fb3333202bbbef00"
+    },
+    {
+      "path": "atlas/workflows/templates/equity-compensation/rsu-award-agreement/SKILL.md",
+      "sha256": "97e1ef4d2c1cb743a4d76e005b85104599410e7d1b232af924a5912e0f054795"
+    },
+    {
+      "path": "atlas/workflows/templates/equity-compensation/stock-option-grant-package/SKILL.md",
+      "sha256": "212a77c71f3717f975ee7e53595085e223a1f479b63b010892e374210ab1ff0a"
+    },
+    {
+      "path": "atlas/workflows/templates/equity-compensation/stockholder-consent-approve-plan/SKILL.md",
+      "sha256": "dc351bab0b973af74e2df9d1e84019f6c903cd46ca31f2c548ed586baf518a03"
+    },
+    {
+      "path": "atlas/workflows/templates/formation/action-of-sole-incorporator/SKILL.md",
+      "sha256": "bae900be83d1d8ae8af86ca3e6c2c17d488f9dd0fe8b80f6ec990360ab5ce7e8"
+    },
+    {
+      "path": "atlas/workflows/templates/formation/bylaws/SKILL.md",
+      "sha256": "8b8d1733f23ec7063442bf2ef0a32887c4d4de90afaff76f90beb0796269e8fb"
+    },
+    {
+      "path": "atlas/workflows/templates/formation/certificate-of-incorporation/SKILL.md",
+      "sha256": "7f060238394ae5cceab6e995bfcdaf13ca54a565bb42269eb89bc6c11f1a74ec"
+    },
+    {
+      "path": "atlas/workflows/templates/formation/indemnification-agreement/SKILL.md",
+      "sha256": "ed756e41b0e0db8128ed2d004cc843eafc6d743f7afbfb265ea05b6b5811543b"
+    },
+    {
+      "path": "atlas/workflows/templates/formation/initial-board-consent/SKILL.md",
+      "sha256": "4dd57ba9214456deff83e05e50f628d72aa6fc73a1cdce05b359936d98f97da6"
+    },
+    {
+      "path": "atlas/workflows/templates/formation/stock-records/SKILL.md",
+      "sha256": "66144f4d4f7b499378026efec2bbf144290f7ee09764cdfdf5e0258e10d31eac"
+    },
+    {
+      "path": "atlas/workflows/templates/founders/83b-election-package/SKILL.md",
+      "sha256": "47e7301b47604180b446f86ead2c77131dc6fe01744a8d55190bb41fff7b80ae"
+    },
+    {
+      "path": "atlas/workflows/templates/founders/founder-stock-purchase-agreement/SKILL.md",
+      "sha256": "bfa38176c0b876d7bf45de6f0ed554f30cc07a8be0c13df372df70c96b3f243e"
+    },
+    {
+      "path": "atlas/workflows/templates/founders/notice-of-repurchase/SKILL.md",
+      "sha256": "52bfcd15e5579a194d5e9df0baef813e71f41297cc2544152ea7eccf72955939"
+    },
+    {
+      "path": "atlas/workflows/templates/founders/spousal-consent/SKILL.md",
+      "sha256": "7ce74c6123aafd9da8360ab6ea6ca705d5e28fbb24a721a2fdd2dfef16efb8bd"
+    },
+    {
+      "path": "atlas/workflows/templates/founders/technology-assignment-agreement/SKILL.md",
+      "sha256": "74dc33098e02284a24566469ad0b2b7734ca63937c2607b7dc5bc7c063fb7baf"
+    },
+    {
+      "path": "atlas/workflows/templates/governance/board-consent-resolution-library/SKILL.md",
+      "sha256": "38929eb99cb9361d2c15fa57ec8c4c79a7fd824afc6fa95eb06cac8295a88f67"
+    },
+    {
+      "path": "atlas/workflows/templates/governance/board-meeting-materials/SKILL.md",
+      "sha256": "f96c6bfd42004f5842142f9c4dfc226f8080df7c199a60aaa11b594cb4f93585"
+    },
+    {
+      "path": "atlas/workflows/templates/governance/certificate-of-amendment/SKILL.md",
+      "sha256": "0afec15b6f9c40a56e4dc5c0e78361d8705df5b5655ef6ac89fb5db33d4792a8"
+    },
+    {
+      "path": "atlas/workflows/templates/governance/director-agreement/SKILL.md",
+      "sha256": "5197238c0bd9bea2599f518db824ca4e11165ac7ce2d110a4cb400137eb5b69e"
+    },
+    {
+      "path": "atlas/workflows/templates/governance/secretarys-certificate/SKILL.md",
+      "sha256": "106f03a1e55a55bd13901400c3f8be55795005031ed103262fbbfacd578cbe45"
+    },
+    {
+      "path": "atlas/workflows/templates/governance/section-204-ratification/SKILL.md",
+      "sha256": "2074eaf05792e48a1ffd9e99c604831a1832e9c1fba48d04708123dbed08c4a4"
+    },
+    {
+      "path": "atlas/workflows/templates/governance/stockholder-consent-and-notice/SKILL.md",
+      "sha256": "7fcc6aaf0cb46f7273c27dedaf1a4f03c1743936a53e1f3be3cfd40529f8fe8e"
+    },
+    {
+      "path": "atlas/workflows/templates/governance/stockholder-meeting-materials/SKILL.md",
+      "sha256": "7569afb3b72afbb6b9d55f7088e93849394b284782ddd6dcffb32dc7fb48ac4f"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/amended-and-restated-certificate-of-incorporation/SKILL.md",
+      "sha256": "4b04c69752e2c52eeaead64ad99ffc82d93e3001051227f04a09237b18b9842b"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/board-consent-priced-financing/SKILL.md",
+      "sha256": "b1ea204391514d97c3394a5165a1761a0394804aee9f6bc9b3289c2374d15046"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/disclosure-schedule/SKILL.md",
+      "sha256": "64cc43e0d7e56d4389e3600973ba611d19b45728f921cffb255afac9f311b097"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/investors-rights-agreement/SKILL.md",
+      "sha256": "d2f54d41986b7ec74b35949fcce9489505392bc2975257f0ef5255aebac7cce5"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/management-rights-letter/SKILL.md",
+      "sha256": "2e5197da0556f80949932bb9583f4fbea865c1598f0cdb673c996907d0323589"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/rofr-and-co-sale-agreement/SKILL.md",
+      "sha256": "4032351a0e021e2c63c1894fd7bf493760066fda4fe7e212408c3122323178bc"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/stock-purchase-agreement/SKILL.md",
+      "sha256": "c63c8abc413e1777ba7748e777d3bdfab20b129261657aea53569083901cc4bc"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/stockholder-consent-priced-financing/SKILL.md",
+      "sha256": "694b9d581a6f6075f28a427c27260771306af463bea46b3a6721c4ace5f252eb"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/term-sheet/SKILL.md",
+      "sha256": "3add451836b7b29304f3cbe9370c0298f0a085f21ec68d92420d02d2ba90ce10"
+    },
+    {
+      "path": "atlas/workflows/templates/priced-financing/voting-agreement/SKILL.md",
+      "sha256": "b4c228cca1e0d004aed601866cf84ee8edfb7ba534cb9f3ed9607dc2d58cb576"
+    },
+    {
+      "path": "checklists/annual-compliance-calendar.md",
+      "sha256": "37bbde1a29310cd69db22e728530caa4827a16c89cdd46232e368f0848bb6060"
+    },
+    {
+      "path": "checklists/convertible-financing-checklist.md",
+      "sha256": "20d7db1af632a0bc5a19a0f9860c79281429cbdf8a685b161f25ef71097a42aa"
+    },
+    {
+      "path": "checklists/due-diligence-request-list.md",
+      "sha256": "b0a3f2c18a5f6f774f436f948f7dd41280cf369062ea80e5e7b2e34d76247744"
+    },
+    {
+      "path": "checklists/formation-checklist.md",
+      "sha256": "213ad412229a4c47658f5693782be4c72469a3a93a51b7dea05f40bd2eec5a6b"
+    },
+    {
+      "path": "checklists/priced-round-closing-checklist.md",
+      "sha256": "98db007c1624d412aae434eb7d8b111cf03c173b6a34147022f142aa5f9a0a50"
+    },
+    {
+      "path": "engine.json",
+      "sha256": "7d73e076fd6e9191f5994ddc3c1759fd0a5ec28165f411c5b0b82c77342fa3b7"
+    },
+    {
+      "path": "references/convertible-instruments.md",
+      "sha256": "79260bd09ccd56f58af805a329fe25361b266357fe20fdad67950d18fc5b4e09"
+    },
+    {
+      "path": "references/delaware-corporate-law.md",
+      "sha256": "a602f432c1bc152e793f3051d2c399fd84e97bcf35de713d0d54f30ec89a5813"
+    },
+    {
+      "path": "references/document-catalog.md",
+      "sha256": "73538f7f4673a7ad48b2c7f258b6e2734702fabc80df97f24ffcefc55595cd38"
+    },
+    {
+      "path": "references/drafting-conventions.md",
+      "sha256": "10327485ac48c16f396a4ec095d6b0c86af501268202d15954305cc7bd1d8da8"
+    },
+    {
+      "path": "references/employment-and-ip.md",
+      "sha256": "c8571f3f23755b8eb0fee6232aca73c4238003314a304472eedf2bd2e6686ad7"
+    },
+    {
+      "path": "references/equity-compensation-and-tax.md",
+      "sha256": "a293bfab0113a1dd6d35182213930aa5b24f152269a759393470bb146d4534bf"
+    },
+    {
+      "path": "references/governance-and-compliance.md",
+      "sha256": "68d1a4bc9896af94dc6103fb547e1bd6d1c40781bac783541601347b8373624e"
+    },
+    {
+      "path": "references/intake.md",
+      "sha256": "84b6fa76ef5e2b439a2551ca0cb1cae4c64b7438172f63443a52b6fa1c5a177f"
+    },
+    {
+      "path": "references/securities-law.md",
+      "sha256": "40783bd02dbc6ad95f292b6387a0672a7d4362027d977dea091ffdc598a526fc"
+    },
+    {
+      "path": "references/variables.md",
+      "sha256": "cb5886ec85a97e6d490f306534c21408183dab1891722c542230fa7f0d1cbb34"
+    },
+    {
+      "path": "references/venture-financing-terms.md",
+      "sha256": "cc66fb5c8dca228c0480f1be06ba812671ec19370cdafcda0c60f5fb445b9bfa"
+    },
+    {
+      "path": "scripts/LICENSE",
+      "sha256": "df79211374ff966a77c9c2d23ba9e214c10b06a9aafffe3caac396520b674f35"
+    },
+    {
+      "path": "scripts/build_catalog.py",
+      "sha256": "c99d8eb7fd909d3c23b9a164a7356aeab5481fdf45bd54154cd1599a8510229e"
+    },
+    {
+      "path": "scripts/check_document.py",
+      "sha256": "a65cad0e087223dfb495837ef3665fd2146431b95e62c04af159de88d9e61218"
+    },
+    {
+      "path": "scripts/conversion_calculator.py",
+      "sha256": "477360a0bf821c2cd2eb54394499798c35d614c919e63d24cb3b24521fd2af12"
+    },
+    {
+      "path": "scripts/franchise_tax.py",
+      "sha256": "f9779c82f5f302a4910a9c7d0d71911e7e1259f61556cf82852e36268dbc8127"
+    },
+    {
+      "path": "scripts/md_to_docx.py",
+      "sha256": "8d88f17d455674dcb90cdf4885299421de767ac9de010ea77a685cc3abe44305"
+    },
+    {
+      "path": "templates/commercial/mutual-nda.md",
+      "sha256": "cd7286c593e56ed53ad0522b8c1ca74c892cd956385dea5fcbbb117ffe00c283"
+    },
+    {
+      "path": "templates/commercial/one-way-nda.md",
+      "sha256": "f12df7595ba69d51edfa150c3daef2a7f50343bc8f32396de6b9cb0a05675b9b"
+    },
+    {
+      "path": "templates/compliance/delaware-franchise-tax-and-annual-report.md",
+      "sha256": "b502e01292290107d01a2e9e22928e55012f55b1c60ed16206b908e6717b9404"
+    },
+    {
+      "path": "templates/compliance/dissolution-guide.md",
+      "sha256": "80806045975de52bb3168a3c98d0eb5ba5dad2b677bf1934e7cf755226b8dbec"
+    },
+    {
+      "path": "templates/compliance/entity-conversion-guide.md",
+      "sha256": "57fbf7b4c1725b4ecfc2f4d48595b8e111db1adb5de2f4c524abb7229872e877"
+    },
+    {
+      "path": "templates/compliance/foreign-qualification-guide.md",
+      "sha256": "98efd903916abcc602664aacf1484fd6121ecec6a83085108b6a1e5e060dab28"
+    },
+    {
+      "path": "templates/convertible-financing/board-consent-convertible-financing.md",
+      "sha256": "1bd9e37dcc6b72c6927eb5f8c0f531cc72be5c41c112da36d7283db74aa2830f"
+    },
+    {
+      "path": "templates/convertible-financing/convertible-note-purchase-agreement.md",
+      "sha256": "5e5368904cca89105ad88e2af085eeedd09a125513e0d614f9f88206a6342093"
+    },
+    {
+      "path": "templates/convertible-financing/convertible-promissory-note.md",
+      "sha256": "7622e51b383eb5a26fd05a3677da1abdc67693b2eb75f7956056e1f66ee20372"
+    },
+    {
+      "path": "templates/convertible-financing/investor-questionnaire.md",
+      "sha256": "a8f644c4f96b8795e4eb5b934a3f0bea6a692c8465050de45332c09317533957"
+    },
+    {
+      "path": "templates/convertible-financing/safe-guide.md",
+      "sha256": "ed938503fa76e1b9715e4dc9aa4444bed256fa6393525fdec43849887e7be06a"
+    },
+    {
+      "path": "templates/convertible-financing/safe-side-letter.md",
+      "sha256": "d74ef700feb4ad2216a90d8b96b7cb53e3c8b74bbd88ebf719bc0ddd29c015ab"
+    },
+    {
+      "path": "templates/employment-and-contractors/advisor-agreement.md",
+      "sha256": "61b2f5344dcdc87e490aa03eb602333ce33f510d3eb2c267ab4f3e00c46e722c"
+    },
+    {
+      "path": "templates/employment-and-contractors/ciiaa-employee.md",
+      "sha256": "211decb76a1e58b5cdd8413c08c0fbed061188a4c248806a7e7954741d8a35e7"
+    },
+    {
+      "path": "templates/employment-and-contractors/confirmatory-ip-assignment.md",
+      "sha256": "9303497e3032bdbb5953c90ea04d03143e4bc5f3d4ac74f4a5b88143406960d8"
+    },
+    {
+      "path": "templates/employment-and-contractors/consulting-agreement.md",
+      "sha256": "72cec529cfdd6be6f93da0819727597db26074585118d57f4927306c195360b2"
+    },
+    {
+      "path": "templates/employment-and-contractors/executive-employment-agreement.md",
+      "sha256": "0afb392c113b5b86ff0f41e3fd410dfff0ee2797c9f6a753a33117e783756f21"
+    },
+    {
+      "path": "templates/employment-and-contractors/offer-letter.md",
+      "sha256": "a67159d3f9f55ed9863f55bf445acfa42b31ba0e8c3770739e1d8e8b5ee0d6fa"
+    },
+    {
+      "path": "templates/employment-and-contractors/separation-agreement-and-release.md",
+      "sha256": "2a67e7eaed933700b2e38d7ffbc1cd4a3d547cac8fd3bf4bfcaf31b925b84efb"
+    },
+    {
+      "path": "templates/equity-compensation/board-consent-adopt-plan.md",
+      "sha256": "b626b9666a530c91ed4017cb0ede28997e079f902109d56a451c248e73f1f0a6"
+    },
+    {
+      "path": "templates/equity-compensation/board-consent-equity-grants.md",
+      "sha256": "2e17257dec713b9daf8a384032be3913528fe9ac0f72679fcc3edc5f73eff884"
+    },
+    {
+      "path": "templates/equity-compensation/equity-incentive-plan.md",
+      "sha256": "6f439d534b5a9afc4c2b8e5facc680c4c0b7dc3ef604c891a472514b8705b559"
+    },
+    {
+      "path": "templates/equity-compensation/plan-share-increase-and-option-amendment.md",
+      "sha256": "39d44b63b50df3abb7bba6f9fa6b55aa2b8faffa6cc44cba7df08dd592923edc"
+    },
+    {
+      "path": "templates/equity-compensation/restricted-stock-purchase-agreement-plan.md",
+      "sha256": "3bd280605957a965a6a5b56ba739665ebcaa52dd68029bf71be6dce4eb0db290"
+    },
+    {
+      "path": "templates/equity-compensation/rsu-award-agreement.md",
+      "sha256": "e42f5ec9d389e59b479955009eba519a3747e81c2602962818f34511eb0b3ac7"
+    },
+    {
+      "path": "templates/equity-compensation/stock-option-grant-package.md",
+      "sha256": "e518ed953ad33bcbeeb1a9779d1b4c640f7ebc9dc6255d2935bc5a1741e0b205"
+    },
+    {
+      "path": "templates/equity-compensation/stockholder-consent-approve-plan.md",
+      "sha256": "4bbc926e320f5e1cb7e6c41d68ed1d6ff466aee131f7dc0dcbb3c3c57bbbc684"
+    },
+    {
+      "path": "templates/formation/action-of-sole-incorporator.md",
+      "sha256": "e269d435609da2ada69ae9847e65a4b5cdb4931e0ca9ada360c2e83fcf591fc1"
+    },
+    {
+      "path": "templates/formation/bylaws.md",
+      "sha256": "0afdacad930c2bd56582fa06ca9bd580b920cada896277a78fbee6f9900cafc2"
+    },
+    {
+      "path": "templates/formation/certificate-of-incorporation.md",
+      "sha256": "b8f824e2948731601408e93fede50d55e53748b22366255f6327ec74f8ceaebb"
+    },
+    {
+      "path": "templates/formation/indemnification-agreement.md",
+      "sha256": "ac532f9e54ec3e157911d2278623a42d9ce7f8e3bb6e3cd7cc36d322f1393819"
+    },
+    {
+      "path": "templates/formation/initial-board-consent.md",
+      "sha256": "2b9a3a5c959f50d0253f34b9e8c1731835dd337138f7ec34b72b9cd1bf9bea89"
+    },
+    {
+      "path": "templates/formation/stock-records.md",
+      "sha256": "451ff564b22d660e5c45edbbbeb0a7ef0959d04f29b958cb5dd4a34f7ac349d3"
+    },
+    {
+      "path": "templates/founders/83b-election-package.md",
+      "sha256": "f93f452ee85e220de9e3d972f651bde91f9e941a5c534236f03636471b308dbc"
+    },
+    {
+      "path": "templates/founders/founder-stock-purchase-agreement.md",
+      "sha256": "51d0751c0a37e6a54217e35d4dc8d2af965f872b05f4086380a0c2f731ee84e9"
+    },
+    {
+      "path": "templates/founders/notice-of-repurchase.md",
+      "sha256": "98cb2b23417a82a680c7f266c8cf82c2d44fe14a62a1bf04d6d2242222dd0c18"
+    },
+    {
+      "path": "templates/founders/spousal-consent.md",
+      "sha256": "a13654bdc3b027d1cc1ed514c922d9e3fd3de012d81731de3b81d57aeb95ac66"
+    },
+    {
+      "path": "templates/founders/technology-assignment-agreement.md",
+      "sha256": "4bed069220540e3d35a0790804eb466a76422bf15b96768bb511da59381a1156"
+    },
+    {
+      "path": "templates/governance/board-consent-resolution-library.md",
+      "sha256": "7ccb4eff4b56f942da81bab6f01979104b0ff32c8463f7b37f3cdefa5a6bd278"
+    },
+    {
+      "path": "templates/governance/board-meeting-materials.md",
+      "sha256": "578610e95f56dff592733b515a44beb7cbf86998a9d89284a010832b841d64f1"
+    },
+    {
+      "path": "templates/governance/certificate-of-amendment.md",
+      "sha256": "bc55f450b2fa104e0f385183722fc70d3d8f1475738416931404b26a9a15c8f4"
+    },
+    {
+      "path": "templates/governance/director-agreement.md",
+      "sha256": "d48dabc780f4eb75203e3a8cd39c83342c6a978abfbc7051ffe6f17c2af57694"
+    },
+    {
+      "path": "templates/governance/secretarys-certificate.md",
+      "sha256": "3d33003cc9faafb6c0b8c4b28f990eb1b816e99950b9d77da03e6cf40661b945"
+    },
+    {
+      "path": "templates/governance/section-204-ratification.md",
+      "sha256": "11126664f8f82acdb681fc0a73796f96eead232bab5fc20dbe2a441102156732"
+    },
+    {
+      "path": "templates/governance/stockholder-consent-and-notice.md",
+      "sha256": "5ddcb53b73ba36c56c9ed665969dddd32b6115162c2bb6e72926aec5ad8d1f77"
+    },
+    {
+      "path": "templates/governance/stockholder-meeting-materials.md",
+      "sha256": "68fba7a1f37c3d432a1f9558963e14d99a49e82b6a2ed77e85b6365ad0c66d6f"
+    },
+    {
+      "path": "templates/priced-financing/amended-and-restated-certificate-of-incorporation.md",
+      "sha256": "41f635f0bc847da8d017c0ca5160a569aee57120c07ca896daddef20dc9cf84a"
+    },
+    {
+      "path": "templates/priced-financing/board-consent-priced-financing.md",
+      "sha256": "e70316d40e02755d5daed30a0d3b94c480500ab91bc6ae1820929bba72b9e70f"
+    },
+    {
+      "path": "templates/priced-financing/disclosure-schedule.md",
+      "sha256": "2a0bd16c0e53b9e8e17310d1a7d61d2193f0da2c0452c5cdba2bf0daa2eacb26"
+    },
+    {
+      "path": "templates/priced-financing/investors-rights-agreement.md",
+      "sha256": "1a668237d5e8571c343ea2d05d99239fdebccdff64cb442f2cee71119ec26a7b"
+    },
+    {
+      "path": "templates/priced-financing/management-rights-letter.md",
+      "sha256": "ae0198ba7c4f42e8806aa9aae8940f4a8d9b9bc34469f2cfd35f0d3823abab5c"
+    },
+    {
+      "path": "templates/priced-financing/rofr-and-co-sale-agreement.md",
+      "sha256": "04e6f820b135d113c8b7a9aa379af0d0f3f94ae265fb2b374b1213a0836ff818"
+    },
+    {
+      "path": "templates/priced-financing/stock-purchase-agreement.md",
+      "sha256": "cf9074b677df05c75ba9b6361fe7bebd25f4cdc662968596684958ce77812e56"
+    },
+    {
+      "path": "templates/priced-financing/stockholder-consent-priced-financing.md",
+      "sha256": "ceb06c2b6cc88c05a7c16b6b5ed4f342e3952767e55860a716b6f3df1f61380c"
+    },
+    {
+      "path": "templates/priced-financing/term-sheet.md",
+      "sha256": "61bc1a752d0974d4105ac63d377fde23e804f21c266a415f6f320e3c5a602053"
+    },
+    {
+      "path": "templates/priced-financing/voting-agreement.md",
+      "sha256": "884acbd4da0f5833d6ca7b6a87353cb67ce5b0401a1c4647c5e46415b5e07cac"
+    }
+  ]
+}
